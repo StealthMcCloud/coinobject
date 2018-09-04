@@ -1,0 +1,21 @@
+.heads {
+    height: 50px;
+    width: 50px;
+    background-image: url("Photos/heads.png");
+    background-size: 100% 100%;
+    background-color: silver;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 1px dashed black;
+}
+
+.tails {
+    height: 50px;
+    width: 50px;
+    background-image: url("Photos/tails.png");
+    background-size: 100% 100%;
+    background-color: silver;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 1px dashed black;
+}
