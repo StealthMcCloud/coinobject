@@ -5,10 +5,12 @@ const coin = {
     },
     toString: function() {
         if (this.state === 0) {
-           console.log("Heads")
+            let resultHeads = document.createTextNode("Heads");
+            document.body.appendChild(resultHeads);
         }
         else if (this.state === 1) {
-            console.log("Tails")
+            let resultTails = document.createTextNode("Tails");
+            document.body.appendChild(resultTails);
         }
     },
     toHTML: function() {
